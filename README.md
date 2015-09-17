@@ -29,3 +29,18 @@ The project, in simple words is about providing video and scripted information, 
 - The REST service MUST be able to do searches on YouTube, using the YouTube API.
 - The REST service MUST be able to get view count of any video from YouTube in real time.
 - Basic implementation of the REST could be based on Spring Framework and accept calls through API, so that it could be extended in the future and have no effects on the web-app, and also it will have different deploy from the web app.
+
+## Template Generation level
+- Due to the web application pages being dynamic, dynamic creation of HTML objects is a MUST and the best way to accomplish this would be through templating using Jade (javascript) or Thymeleaf (java). 
+- Another needed feature in this step would be the already included client rendering, to remove the weight of templating on the server side and pushing it on the client.
+- The Templating service must cooperate with the model view control architecture in order to reach high rendering performance.
+- Through MVC model and using templates, we will create views and reuse necessary / redundant views such as footer or header.
+- Only the landing page MIGHT not be totally templated due to the need to customize it according to the insights of analytics.
+
+## Webapp MVC level
+- Model View Control level delivers best performance for this kind of web application, practically speaking, for dynamic view rendering from the model by using the data provided by the JAVA server.
+- Implemented in Angularjs, this architecture will have a mostly static LANDING-PAGE with detail in design and attraction of the eye, a dynamically created body made of sections, classes(as in Courses) and item pages
+- The architecture MUST reuse all already created blocks when possible, without creating duplicate code.
+- The architecture MUST NOT have any unnecessary complexity which makes it harder for a total reconfiguration/make-over of the application
+- The architecture MUST meet the standards of the industry (code reuse, clear documentation, code commenting, clean code of unnecessary libraries) and must not have any areas which are unknown or obscure to the rest of the team.
+
