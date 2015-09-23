@@ -1,0 +1,42 @@
+name: Teodor Rupi | Blog - Automation Java JavaScript Selenium and Stuff Programming
+description: Blogging about quality assurance automation and other projects
+meta_description: "Blogging on automation, java, javascript, android and other projects"
+
+aboutPage: true
+
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 20
+baseurl: /blog
+domain_name: 'teodorrupi.com'
+google_analytics: 'UA-63370434-2'
+disqus: true
+disqus_shortname: 'teodorrupiblog'
+
+# Details for the RSS feed generator
+url:            'http://teodorrupi.com/blog'
+author:         'Teodor Rupi'
+authorTwitter:  'teodorrupi'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
