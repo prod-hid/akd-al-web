@@ -1,4 +1,0 @@
-{
-	"http://192.168.40.2:4444/wd/hub" : ["firefox", "chrome"],
-	"http://192.168.40.3:4444/wd/hub" : ["chrome"]
-}

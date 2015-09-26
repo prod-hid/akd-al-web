@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Akademia Albania | Edukim dhe Trainim Online ne Shqip - Starting this blog</title>
+  <link rel="shortcut icon" href="/blog/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/blog/assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="My Blog" href="/blog/rss.xml">
+  <link rel="stylesheet" href="/blog/assets/css/highlight.css">
+</head>
+<body>
+
+  <nav class="main-nav">
+    
+        <a href="/blog/"> <span class="arrow">←</span> Home </a>
+    
+
+    
+        
+            <a href="/blog/about">About </a>
+        
+    
+    <a href="/blog/about">Kategori </a>
+    <a href="/blog/about">Ndihme </a>
+    <a href="/blog/about">Info </a>
+    <a class="cta" href="/blog/feed.xml">Subscribe</a>
+</nav>
+
+  
+
+  <section id="wrapper" class="">
+    <article class="post">
+    <header>
+        <h1>Starting this blog</h1>
+        <h2 class="headline">September 20, 2015</h2>
+    </header>
+    <section id="post-body">
+        <p>After &quot;years&quot; of searching for the perfect template for a blog, which would be <strong>easy to read</strong>, <strong>minimal design</strong> and <strong>mobile friendly</strong>, I finally decided
+to give it a go with a <a href="http://jekyllrb.com">Jekyll</a> theme, a domain from <a href="http://godaddy.com">GoDaddy</a> and hosting with Github Pages.</p>
+
+<h1>Domain</h1>
+
+<p>I got my personal domain <a href="http://teodorrupi.com">teodorrupi.com</a> some time ago and experimented for a long time with different small projects. Shortly after, I was already
+facing a huge limitation from GoDaddy, the inability to run java based applications. I was unable to deploy any enterprice application or big project, because the backend, based on java, had to either be removed/changed, or hosted somewhere else. So I thought of using the domain for mostly static information, about me, project info and so on.</p>
+
+<h1>Jekyll</h1>
+
+<p>I decided to go for Jekyll and then started searching for the perfect theme, which was <a href="https://github.com/nickbalestra/kactus">Cactus</a>. Minimalistic, ideal for a blog, and already had all I need ready, 
+such as Google Analytics, Disqus commenting and nice sharing options.</p>
+
+<h1>Building</h1>
+
+<p>I followed a few simple tutorials on how to get things started, like <a href="http://andrewsturges.com/blog/jekyll/tutorial/2014/11/06/github-and-godaddy.html">Godaddy-Github-Config</a> and <a href="http://andrewsturges.com/blog/jekyll/tutorial/2013/09/15/hosting-a-jekyll-blog-on-github.html">Starting-Jekyll-On-Github</a>
+and everything worked as a charm. After creating a Disqus account and registering for the &quot;Use on site&quot; option, everything was working fine, except for the base-url. </p>
+
+<h1>A small issue</h1>
+
+<p>My domain was http://www.teodorrupi.com . My blog was going to be hosted on teodorrupi.com/blog. After modifying the <strong>_config.yml</strong> file with a &quot;/blog/&quot; base url, my blog
+was now hosted at www.teodorrupi.com/blog// . Using &quot;/blog&quot; fixed the problem, but the assets and post pages were missing :(. The fix was to keep base url as &quot;/blog&quot; and to add &quot;/&quot; at every use of  { base-url } in the project files. That was all.</p>
+
+<h1>Run and Develop</h1>
+
+<p>To run the project, you can use </p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>jekyll serve <span class="s1">&#39;&#39;</span></code></pre></div>
+
+<p>and do not forget to have the project in a special branch &quot;gh-pages&quot;, if you want to also serve additional things on your github io page.
+To make modifications and publish, on the &quot;your-blog-repository-name&quot; folder</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git checkout gh-pages
+<span class="nv">$ </span>git git add . 
+<span class="nv">$ </span>git commit -m <span class="s2">&quot;my commit to the pages branch of this repository&quot;</span>
+<span class="nv">$ </span>git push origin gh-pages</code></pre></div>
+
+<h1>Resouces</h1>
+
+<p>To get to the same point as this blog, please follow this post and then feel free to fork the project on <a href="https://github.com/teodorrupi/blog">github</a></p>
+
+    </section>
+</article>
+<footer id="post-meta" class="clearfix">
+    <a href="http://twitter.com/teodorrupi">
+        <img class="avatar" src="/blog/assets/images/avatar.png">
+        <div>
+            <span class="dark">Teodor Rupi</span>
+            <span>Akademia Shqiptare Online per trainim nepermjet internetit</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=teodorrupi.com/2015/starting-this-blog/ - Starting this blog by @teodorrupi"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+
+    <div class="archive readmore">
+        <h3>Comments</h3>
+        <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'teodorrupiblog';
+        var disqus_developer = 0; // developer mode is on
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+    </div>
+
+
+<!-- Archive post list -->
+
+    <ul id="post-list" class="archive readmore">
+        <h3>Read more</h3>
+        
+            <li>
+                <a href="/blog/2015/automation-tools/">Automation in Testing - Is it needed?<aside class="dates">Sep 23</aside></a>
+            </li>
+        
+            <li>
+                <a href="/blog/2015/alb-ch-it-projects/">Albanian Chapter - IT projects<aside class="dates">Sep 22</aside></a>
+            </li>
+        
+            <li>
+                <a href="/blog/2015/starting-this-blog/">Starting this blog<aside class="dates">Sep 20</aside></a>
+            </li>
+        
+    </ul>
+
+
+
+
+
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/blog/assets/js/main.js"></script>
+  <script src="/blog/assets/js/highlight.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-63370434-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+
+
