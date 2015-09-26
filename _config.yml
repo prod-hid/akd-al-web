@@ -8,8 +8,8 @@ markdown: redcarpet
 highlighter: pygments
 
 paginate: 20
-baseurl: /blog
-domain_name: 'teodorrupi.com'
+baseurl: ""
+domain_name: 'http://prod-hid.github.io/akd-al-web'
 google_analytics: 'UA-63370434-2'
 disqus: true
 disqus_shortname: 'teodorrupiblog'

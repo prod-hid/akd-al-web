@@ -139,9 +139,10 @@ nav.main-nav a.cta {
 }
 
 #wrapper {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 30px 40px 100px 40px;
+  max-width: 1115px;
+  /*margin: 0 auto;*/
+  margin: 160px auto 4.75em;
+  padding: 30px 40px 10px 40px;
 }
 
 #wrapper.home {
@@ -644,7 +645,7 @@ h2.month {
 }
 
 #hero-header, #hero-subheader{
-	padding-bottom: 15px;
+	padding-bottom: 1.02em;
 	font-size: 2.35em;
     max-width: 24em;
     font-family: "Helvetica Neue",Helvetica,sans-serif;
@@ -652,6 +653,13 @@ h2.month {
 }
 #hero-subheader{
 	font-size: 2.0em;
+	letter-spacing: -0.3pt;
+	padding-bottom: 2.27em;
+}
+
+.media{
+	letter-spacing: -0.2pt;
+    padding-bottom: 3.0em;
 }
 
 .media-heading {
@@ -663,9 +671,24 @@ h2.month {
 }
 .media-body p {
 	font-family: "Helvetica Neue",Helvetica,sans-serif;
-	max-width: 24em;
+	max-width: 28em;
 	font-weight: bold;
 	font-size: 1.56em;
     line-height: 1.48em;
     opacity: 0.7;
+}
+
+.subheader{
+	font-size: 0.8em;
+}
+
+#hero-bottom p{
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Helvetica Neue",Helvetica,sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1.48em;
+    max-width: 28em;
+    opacity: 0.85;
 }
