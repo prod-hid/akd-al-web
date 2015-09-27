@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Akademia Albania | Edukim dhe Trainim Online ne Shqip</title>
+    <description>Akademia Shqiptare Online per trainim nepermjet internetit</description>
+    <link>http://teodorrupi.com/blog</link>
+    <atom:link href="http://teodorrupi.com/blog/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Automation in Testing - Is it needed?</title>
+        
+        
+          <description>&lt;h1&gt;Automation in Quality Assurance&lt;/h1&gt;
+
+&lt;p&gt;Quality Assurance is maybe one of the top departments which needs software automation. The group of people on the development side are always fewer than the people in the user side, hence something developet by a group of people, might go into the hands of millions. Quality Assurance is there to make sure that MOST out of those million people get what the product is required to be like and what to do. BUT there is no million people quality assurance team, who are experts and vigilent enough to make sure the product follows those specifications. &lt;strong&gt;Here is where machines come to the rescue.&lt;/strong&gt; Maybe machines will NEVER be as smart as a human, but its sure that a machine has a very high uptime. It never gets distracted or bored from doing the same thing over and over again, it never reduces its quality. BUT machines alone can never fully cover a complex project, the human eye and mind is always needed.&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 23 Sep 2015 01:50:00 +0200</pubDate>
+        <link>http://teodorrupi.com/blog/2015/automation-tools/</link>
+        <guid isPermaLink="true">http://teodorrupi.com/blog/2015/automation-tools/</guid>
+      </item>
+    
+      <item>
+        <title>Albanian Chapter - IT projects</title>
+        
+        
+          <description>&lt;h1&gt;IT in Albania&lt;/h1&gt;
+
+&lt;p&gt;The Albanian IT industry is growing daily due to investments but the quality is really low and most of the investments go in developing unused technologies. Due to low competition, the best Albanian companies do little work, get huge funds and produce low quality end-products which most of the time are mandatory to use in government offices.&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 22 Sep 2015 00:50:00 +0200</pubDate>
+        <link>http://teodorrupi.com/blog/2015/alb-ch-it-projects/</link>
+        <guid isPermaLink="true">http://teodorrupi.com/blog/2015/alb-ch-it-projects/</guid>
+      </item>
+    
+      <item>
+        <title>Starting this blog</title>
+        
+        
+          <description>&lt;p&gt;After &amp;quot;years&amp;quot; of searching for the perfect template for a blog, which would be &lt;strong&gt;easy to read&lt;/strong&gt;, &lt;strong&gt;minimal design&lt;/strong&gt; and &lt;strong&gt;mobile friendly&lt;/strong&gt;, I finally decided
+to give it a go with a &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme, a domain from &lt;a href=&quot;http://godaddy.com&quot;&gt;GoDaddy&lt;/a&gt; and hosting with Github Pages.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sun, 20 Sep 2015 20:45:00 +0200</pubDate>
+        <link>http://teodorrupi.com/blog/2015/starting-this-blog/</link>
+        <guid isPermaLink="true">http://teodorrupi.com/blog/2015/starting-this-blog/</guid>
+      </item>
+    
+  </channel>
+</rss>
