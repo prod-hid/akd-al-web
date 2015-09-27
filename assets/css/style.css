@@ -706,4 +706,16 @@ h2.month {
 	    line-height: 1.48em;
 	    opacity: 0.7;
 	}
+
+	#hero-subheader{
+		padding-bottom: 1.02em;
+		font-size: 1.3em;
+    	max-width: 24em;
+    	font-family: "Helvetica Neue",Helvetica,sans-serif;
+    	font-weight: bold;
+	}
+
+	.media{
+		padding-bottom: 1.5em;
+	}
 }
