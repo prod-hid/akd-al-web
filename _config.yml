@@ -9,7 +9,7 @@ highlighter: pygments
 
 paginate: 20
 baseurl: /
-domain_name: http://http://127.0.0.1:4000
+domain_name: http://prod-hid.github.io/akd-al-web
 google_analytics: 'UA-63370434-XX'
 disqus: true
 disqus_shortname: 'teodorrupiblog'
