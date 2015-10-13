@@ -10,7 +10,8 @@
   }]);
 
   App.controller('GreetingController', ['$scope', '$http', function($scope, $http) {
-    $http.get('http://www.w3schools.com/angular/customers.php').
+    //$http.get('http://www.w3schools.com/angular/customers.php').
+      $http.get('http://localhost:8080/greeting').
       success(function(data) {
         $scope.names = data.records;
       })

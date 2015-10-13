@@ -22,4 +22,12 @@
       .otherwise({redirectTo : 'view1'});
   });
 
+    /**
+     *  Cors usage example.
+     **/
+    App.config(function($httpProvider) {
+        //Enable cross domain calls
+        $httpProvider.defaults.useXDomain = true;
+    });
+
 }());
